@@ -1,8 +1,4 @@
-#[jenkins-slave]
-#3.129.45.138
-
-[jenkins-slave3]
+[server-target]
 3.129.72.28
 
-#[jenkins-master]
-#13.212.127.183
+
