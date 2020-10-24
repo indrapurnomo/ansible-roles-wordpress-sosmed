@@ -1,0 +1,12 @@
+- name: Install WordPress
+  hosts: jenkins-slave3
+# remote_user: ubuntu
+  user: root 
+# become: yes
+# become_method: sudo
+  sudo: yes
+  roles:
+    - nginx
+    - php
+    - zip
+    - sosmed

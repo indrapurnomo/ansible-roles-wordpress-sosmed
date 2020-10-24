@@ -1,0 +1,13 @@
+- name: Install Nginx,PHP,WordPress
+  hosts: jenkins-slave3
+  user: root
+#  remote_user: ubuntu
+#  become: yes
+  sudo: yes 
+# become_method: sudo
+  roles:
+    - nginx
+    - php
+    - zip
+    - wp
+
