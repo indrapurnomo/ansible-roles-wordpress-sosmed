@@ -3,8 +3,8 @@
     name: nginx
     state: present
 - name: copy config
-  copy:
-    src: ../templates/wp.conf
+  template:
+    src: wp.conf
     dest: /etc/nginx/sites-enabled/
 - name: start nginx
   service:
