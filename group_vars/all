@@ -5,7 +5,7 @@ wp_db_user: dbadmin
 wp_db_password: dbpass
 wp_db_hostname: dbhost
 
-# Sosial-Media database settings
+# Sosial-Media database settings, change with correct value
 pesbuk_db_name: dbname2 
 pesbuk_db_user: dbadmin2
 pesbuk_db_password: dbpass2
