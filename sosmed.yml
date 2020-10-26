@@ -1,4 +1,4 @@
-- name: Install WordPress
+- name: Install Nginx,PHP,Unzip,and WordPress
   hosts: server-target
   user: root 
   sudo: yes
