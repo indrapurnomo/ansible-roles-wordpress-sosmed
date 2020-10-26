@@ -16,9 +16,6 @@
   template:
     src: wp-config.php
     dest: /var/www/html/wordpress/
-#tasks:
-#  - name: restart Nginx
-#    ansible.builtin.command: echo "this task will restart the web services"    
-#    notify: "restart nginx"
+# Call handlers to restart nginx
   notify:
   - restart nginx
