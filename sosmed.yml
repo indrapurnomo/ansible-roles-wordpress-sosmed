@@ -1,4 +1,4 @@
-- name: Install Nginx,PHP,Unzip,and WordPress
+- name: Install Nginx,PHP,Unzip,and sosmed
   hosts: server-target
   user: root 
   sudo: yes
